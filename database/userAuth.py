@@ -13,7 +13,7 @@ load_dotenv()
 
 KEY = os.getenv('KEY') 
 
-deta = Deta(KEY)
+deta = Deta('b0wokvr1_DWeHgiBtH1kYeakAJ3MnLaoagf2ndd4C')
 
 db = deta.Base("users_db")
 
